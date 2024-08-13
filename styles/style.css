@@ -221,3 +221,41 @@ border-radius: 20px;
 .run > div {
     width: 420px;
 }
+
+/* bmi section  */
+table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+td{
+    padding-left: 10px;
+}
+.bmi-heading{
+    color: white;
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin-bottom: 65px;
+}
+.description-2{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+table{
+    width: 300px;
+    height: 200px;
+}
+.bmi-section{
+    background: rgb(34, 34, 34);
+    padding: 50px 130px;
+    
+}
+.bmi-form{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+#activity-factor{
+
+    grid-column: span 2 ;
+}
+

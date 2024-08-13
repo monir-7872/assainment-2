@@ -83,4 +83,65 @@
             <img src="images/run.jpg" alt="">
         </div>
     </section>
+    <section class="bmi ">
+        <div class="common-heading">
+            <h1 class="heading">BMI Calculator</h1>
+        <p class="description-1">BMI calculator estimates body fat based on height and weight, providing a general health indicator. It categorizes individuals as underweight, normal weight, overweight, or obese.</p>
+        </div>
+        <div class="bmi-section display-flex">
+            <div>
+                <h1 class="bmi-heading">BMI Calculator Chart</h1>
+                <table>
+                    <tr>
+                        <th class="description-2">BMI </th>
+                        <th class="description-2">Weight Status</th>
+                        
+                    </tr>
+                    <tr>
+                        <td class="description-1">Below 18.5</td>
+                        <td class="description-1">Underweight</td>
+                    </tr>
+                    <tr>
+                        <td class="description-1">18.5 - 24.9</td>
+                        <td class="description-1">Healthy</td>
+                    </tr>
+                    <tr>
+                        <td class="description-1">25.0 - 29.9</td>
+                        <td class="description-1">Overweight</td>
+                    </tr>
+                    <tr>
+                        <td class="description-1">30.0 - and Above</td>
+                        <td class="description-1">Obese</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h2 class="heading">Calculate your BMI</h2>
+                <p class="description-1">BMI estimates body fat based on height and weight, providing a general health indicator. It's calculated by dividing weight (kg) by height (m) squared.</p>
+                <div class="bmi-form">
+                    <form action="">
+                        <input type="number" placeholder="Height/cm">
+                        <input type="number" placeholder="Weight/kg">
+                        <input type="number" placeholder="Age">
+                        <input list="sex" placeholder="Sex">
+                       <datalist id="sex">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                       </datalist>
+                        <input list="Select an activity factor" id="activity-factor" placeholder="Select an activity factor">
+                        <datalist id="activity">
+                            <option value="run">run</option>
+                            <option value="chinup">chinup</option>
+                            <option value="jump">jump</option>
+                        </datalist>
+                    </form><br>
+                    <button class="join btn-text btn">Calculate</button>
+                </div>
+            </div>
+        </div>
+       
+    </section>
    </main>
+</body>
+</html>
+   
