@@ -168,3 +168,27 @@ right: -80px;
 .batton{
     position: relative;
 }
+/* section1 */
+.section-1{
+    text-align: center;
+}
+.common-heading{
+    max-width: 50%;
+    margin: 0px auto;
+    margin-bottom: 60px;
+}
+.heading{
+    font-size: 3rem ;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 140px;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+.fitness-pic > img {
+    border-radius: 50%;
+}
