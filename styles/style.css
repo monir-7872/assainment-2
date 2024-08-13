@@ -1,3 +1,99 @@
-h1{
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* sheared item  */
+.display-flex{
+    display: flex;
+}
+.common-width{
+    max-width: 80%;
+    margin: 0px auto;
+}
+.btn{
+    background-color: #E6533C;
+    border-radius: 35px;
+    padding: 0.6rem 2.1rem ;
+    margin-right: 10px;
+    
+}
+.btn-text{
+    color: white;
+    font-size: 1.1rem;
+font-weight: 500;
+}
+.description-1{
+    font-size: 0.88rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+.description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+.bmi-tx{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+/* nav item  */
+.nav-heading{
+    font-size: 2.2rem;
     color: #E6533C;
+    font-weight: 800px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.list-item{
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+
+}
+.nav-btn{
+    background-color: #E6533C;
+    border-radius: 35px;
+    color: white;
+    font-size: 1.1rem;
+font-weight: 600;
+padding: .6rem 1.4rem;
+}
+.list-items{
+    align-items: center;
+    gap: 3rem;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 30px;
+padding-left: 0px;
+padding-right: 2rem;
+    
+}
+body{
+    /* background: rgb(185, 185, 185); */
+    background: rgb(0, 0, 0);
+}
+.list-link{
+    text-decoration: none;
+    color: white;
+}
+.fa-solid {
+    display: none;
+    color: white;
+}
+nav{
+    margin-top: 40px;
+}
+nav > div{
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
 }
