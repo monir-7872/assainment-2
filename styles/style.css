@@ -87,7 +87,7 @@ body{
 }
 .fa-solid {
     display: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 nav{
     margin-top: 40px;
@@ -258,6 +258,39 @@ table{
 
     grid-column: span 2 ;
 }
+/* trainer-info-section */
+.trainer-pic > div > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.trainer-pic {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    border-radius: 18px;
+    padding: 20px;
+background: rgba(255, 255, 255, 0.1);
+}
+.trainer-pic > div {
+    position: relative;
+}
+.trainer-heading{
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 0px;
+}
+.trainer-pra{
+    margin-top: 5px;
+    text-align: left;
+    
+}
+.absolute{
+    position: absolute;
+    bottom: -20px;
+    left: 15px;
+}
 
 
 
@@ -310,5 +343,8 @@ table{
      }
      .run > div > img{
          width: 85%;
+     }
+     .trainer-pic{
+        grid-template-columns: repeat(1,1fr);
      }
  }
