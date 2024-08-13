@@ -192,3 +192,32 @@ right: -80px;
 .fitness-pic > img {
     border-radius: 50%;
 }
+/* section-run  */
+.run{
+    border-radius: 15px;
+    background: rgb(34, 34, 34);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin-top: 80px;
+}
+.join{
+    width: 230px;
+}
+.run-heading{
+    font-size: 3rem ;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.run > div > img {
+    width: 100%;
+border-radius: 20px;
+}
+.run > div > h2,p {
+    padding-right: 30px;
+}
+.run > div {
+    width: 420px;
+}
