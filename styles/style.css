@@ -247,17 +247,34 @@ table{
 .bmi-section{
     background: rgb(34, 34, 34);
     padding: 50px 130px;
-    
+    justify-content: space-between;
 }
-.bmi-form{
+form{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 15px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 13px;
+    margin-bottom: 30px;
 }
-#activity-factor{
-
+.activity-factor{
     grid-column: span 2 ;
 }
+.input-tx {
+    border-radius: 7px;
+height: 35px;
+padding-top: 10px ;
+border: none;
+font-size: 1.1rem;
+padding-bottom: 10px ;
+padding-left: 15px;
+background: rgba(255, 255, 255, 0.1);
+}
+.calculate{
+    max-width: 570px;
+}
+.bmi-heading-2{
+    margin-bottom: 10px;
+}
+
 /* trainer-info-section */
 .trainer-pic > div > img {
     width: 100%;
@@ -393,9 +410,45 @@ hr{
          flex-direction: column;
          gap: 40px;
          text-align: center;
+         
+     }
+     .run > div > p ,
+     .banner-title > p ,
+     .bmi > div > p ,
+     .calculate > p ,
+     .footer-fitness-div > p ,
+     .run > div > h2 
+      {
+        text-align: left;
+     }
+     .run > div {
+        width: 100%;
      }
      .run > div > img{
-         width: 85%;
+         width: 100%;
+     }
+     /* bmi section  */
+     .bmi-section{
+        flex-direction: column;
+        padding: 20px 20px;
+     }
+     .bmi-heading{
+        margin-bottom: 20px;
+     }
+     table{
+        width: 340px;
+     }
+     .calculate{
+        max-width: 400px;
+     }
+     .description-1{
+        padding-right: 0px;
+     }
+     .bmi-form{
+        max-width: 500px;
+     }
+     form{
+grid-template-columns: repeat(2,180px);
      }
      /* trainer section  */
      .trainer-pic{
