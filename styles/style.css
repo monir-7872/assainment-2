@@ -78,7 +78,7 @@ padding-right: 2rem;
     
 }
 body{
-    /* background: rgb(185, 185, 185); */
+    
     background: rgb(0, 0, 0);
 }
 .list-link{
@@ -291,7 +291,60 @@ background: rgba(255, 255, 255, 0.1);
     bottom: -20px;
     left: 15px;
 }
-
+main{
+    margin-bottom: 100px;
+}
+/* footer section  */
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-bottom: 5px;
+}
+.footer-fitness{
+    font-size: 4.3rem;
+    font-weight: 800;
+    color: #E6533C;
+    margin-bottom: 20px;
+}
+.footer-fitness-div{
+    width: 400px;
+}
+footer > div > div > h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    
+}
+footer > div > div > ul {
+    padding-left: 0%;
+}
+footer > div > div > ul > li {
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+.list-link-1{
+    text-decoration: none;
+     color: rgba(255, 255, 255, 0.5);
+}
+.footer-fitness-1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 110px;
+    margin-bottom: 50px;
+}
+hr{
+    color: rgba(255, 255, 255, 0.1);
+}
+.description-3{
+    font-size: 1.2 rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+    
+    
+}
 
 
 
@@ -344,7 +397,17 @@ background: rgba(255, 255, 255, 0.1);
      .run > div > img{
          width: 85%;
      }
+     /* trainer section  */
      .trainer-pic{
         grid-template-columns: repeat(1,1fr);
      }
+     /* footer section  */
+     .footer-fitness-1{
+        flex-direction: column;
+        gap: 0px;
+     }
+     footer > div > div > h2{
+        margin-top: 3px;
+     }
+
  }
