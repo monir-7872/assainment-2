@@ -421,6 +421,10 @@ hr{
       {
         text-align: left;
      }
+     .run > div > button {
+        padding: 14px ;
+        width: 100%;
+     }
      .run > div {
         width: 100%;
      }
